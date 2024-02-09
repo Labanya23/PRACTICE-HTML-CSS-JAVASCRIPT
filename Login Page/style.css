@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    background:palevioletred;
+    background-size:cover;
+    background-position:center;
+}
+.container{
+    width:420px;
+    background:transparent;
+    color:white;
+     border-radius:30px; 
+    padding:30px 40px;
+    border:2px solid lightpink;
+    backdrop-filter:blur(2px);
+
+}
+.title{
+    border-top-right-radius:30px;
+    border-top-left-radius:30px;
+    background:rgb(203,40,203);
+    
+    height:70px;
+}
+.h1{
+    width:100%;
+    font-size: 50px;
+    text-align:center;
+
+
+}
+.text{
+    width:100%;
+    height:50px;
+    margin:30px 0;
+
+}
+.text input{
+    width: 100%;
+    height:100%;
+    background:transparent;
+    border:none;
+    outline:none;
+    border:2px solid rgb(247,243,243,0.2);
+    border-radius:40px;
+    color:white;
+    padding:20 px 45px 20px 20px;
+}
+
+.text input::placeholder{
+    color:white;
+
+}
+
+passcode{
+    width: 100%;
+    height: 50px;
+    margin:30px 0;
+}
+.passcode input{
+    width:100%;
+    height:100%;
+    background:transparent;
+    border:none;
+    outline:none;
+    border:2px solid rgb(247,243,243,0.2);
+    border-radius:40px;
+    color:white;
+    padding:20px 45px 20px 20px;
+
+}
+
+.passcode input::placeholder{
+    color:white;
+}
+.check{
+    display:flex;
+    justify-content:space-between;
+font-size:15px;
+margin:15px 0 15px;
+}
+.check label{
+    margin:3px;
+    color:aliceblue;
+}
+.check a{
+    color:aliceblue;
+    text-decoration:none;
+    margin-right:3px;
+}
+.check a hover{
+    text-decoration:underline;
+
+}
+
+.btn{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+    height:40px;
+    margin:15px 0 15px;
+    font-size:30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius:30px;
+    outline:none;
+    border:none;
+    color:grey;
+}
+
+.btn:hover{
+    color:pink;
+}
+.account{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:4px;
+    font-size:20px;
+}
+.account a{
+    text-decoration:none;
+    color:rgb(58,53,56);
+}
+.account a:hover{
+      text-decoration:underline;
+}
