@@ -1,0 +1,22 @@
+[
+    {
+        "image":"../assests/apple.png",
+        "name": "apple"
+    },
+
+    {
+        "image":"../assests/chili.png",
+        "name": "chili"
+    },
+    {
+        "image":"../assests/orange.png",
+        "name": "orange"
+    },
+
+    {
+        "image":"../assests/pineapples.png",
+        "name": "pineapples"
+    }
+
+]
+
