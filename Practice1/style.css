@@ -1,0 +1,35 @@
+*{
+    margin:10;
+    padding:10;
+    box-sizing:border-box;
+    font-family:sans-serif;
+    
+}
+
+body{
+    justify-content:center;
+    font-size: 15pt;
+    align-items:center;
+    
+}
+
+#doraemon{
+    width:278px;
+    align-items:center;
+    display:flex;
+    flex-direction:column;
+
+}
+#love{
+    background-color:rgb(0, 255, 51);
+    color:antiquewhite;
+    height:43px;
+}
+
+#btnn{
+    background-color:#21BD20;
+    color:#F4FFF4;
+    height:36px;
+}
+
+
